@@ -1,0 +1,50 @@
+@import "tailwindcss";
+@import "./styles/tokens.css";
+
+@theme {
+  --font-display: var(--ff-font-display);
+  --font-sans: var(--ff-font-body);
+  --color-background: var(--ff-color-background);
+  --color-foreground: var(--ff-color-foreground);
+  --color-surface: var(--ff-color-surface);
+  --color-primary: var(--ff-color-primary);
+  --color-accent: var(--ff-color-accent);
+  --color-border: var(--ff-color-border);
+}
+
+@layer base {
+  html,
+  body {
+    background-color: var(--ff-color-background);
+    color: var(--ff-color-foreground);
+    font-family: var(--ff-font-body);
+    font-size: var(--ff-text-body-size);
+    line-height: var(--ff-text-body-line);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  .font-display {
+    font-family: var(--ff-font-display);
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--ff-color-focus-ring);
+    outline-offset: 2px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

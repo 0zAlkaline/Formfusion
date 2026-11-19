@@ -1,0 +1,122 @@
+:root {
+  /* Core Brand Palette */
+  --ff-raw-bg: #f3f0e8;
+  --ff-raw-surface: #ffffff;
+  --ff-raw-surface-elevated: #fcfbf8;
+  --ff-raw-surface-muted: #ece8de;
+  --ff-raw-text-primary: #17191e;
+  --ff-raw-text-secondary: #77766f;
+  --ff-raw-accent-primary: #315bde;
+  --ff-raw-accent-primary-hover: #2649bd;
+  --ff-raw-accent-primary-active: #1e3b9c;
+  --ff-raw-accent-secondary: #d7f36a;
+  --ff-raw-border: #e3e0d7;
+  --ff-raw-border-strong: #cfcabc;
+  --ff-raw-dark-surface: #17191e;
+
+  /* Semantic Color Tokens */
+  --ff-color-background: var(--ff-raw-bg);
+  --ff-color-foreground: var(--ff-raw-text-primary);
+  --ff-color-surface: var(--ff-raw-surface);
+  --ff-color-surface-elevated: var(--ff-raw-surface-elevated);
+  --ff-color-surface-dark: var(--ff-raw-dark-surface);
+  --ff-color-primary: var(--ff-raw-accent-primary);
+  --ff-color-primary-hover: var(--ff-raw-accent-primary-hover);
+  --ff-color-primary-active: var(--ff-raw-accent-primary-active);
+  --ff-color-primary-foreground: #ffffff;
+  --ff-color-secondary: var(--ff-raw-dark-surface);
+  --ff-color-secondary-hover: #272a32;
+  --ff-color-secondary-active: #0f1115;
+  --ff-color-secondary-foreground: #ffffff;
+  --ff-color-muted: var(--ff-raw-surface-muted);
+  --ff-color-muted-foreground: var(--ff-raw-text-secondary);
+  --ff-color-accent: var(--ff-raw-accent-secondary);
+  --ff-color-accent-foreground: var(--ff-raw-text-primary);
+  --ff-color-border: var(--ff-raw-border);
+  --ff-color-input: var(--ff-raw-border-strong);
+  --ff-color-focus-ring: var(--ff-raw-accent-primary);
+
+  /* Semantic Status Tokens */
+  --ff-color-destructive: #c6362c;
+  --ff-color-destructive-hover: #ab2b22;
+  --ff-color-destructive-foreground: #ffffff;
+  --ff-color-destructive-subtle: #fbf0ef;
+
+  --ff-color-success: #1e6f49;
+  --ff-color-success-foreground: #ffffff;
+  --ff-color-success-subtle: #eef7f2;
+
+  --ff-color-warning: #9a5b13;
+  --ff-color-warning-foreground: #ffffff;
+  --ff-color-warning-subtle: #fbf5eb;
+
+  --ff-color-info: #315bde;
+  --ff-color-info-foreground: #ffffff;
+  --ff-color-info-subtle: #eef2fc;
+
+  /* Typography Families */
+  --ff-font-display: 'Manrope', ui-sans-serif, system-ui, -apple-system, sans-serif;
+  --ff-font-body: 'Inter', ui-sans-serif, system-ui, -apple-system, sans-serif;
+
+  /* Typography Scale */
+  --ff-text-display-xl-size: 2.5rem;
+  --ff-text-display-xl-line: 1.12;
+  --ff-text-display-xl-track: -0.03em;
+
+  --ff-text-display-lg-size: 2rem;
+  --ff-text-display-lg-line: 1.16;
+  --ff-text-display-lg-track: -0.025em;
+
+  --ff-text-h1-size: 1.5rem;
+  --ff-text-h1-line: 1.24;
+  --ff-text-h1-track: -0.02em;
+
+  --ff-text-h2-size: 1.25rem;
+  --ff-text-h2-line: 1.3;
+  --ff-text-h2-track: -0.015em;
+
+  --ff-text-h3-size: 1rem;
+  --ff-text-h3-line: 1.38;
+  --ff-text-h3-track: -0.01em;
+
+  --ff-text-body-lg-size: 1rem;
+  --ff-text-body-lg-line: 1.6;
+
+  --ff-text-body-size: 0.875rem;
+  --ff-text-body-line: 1.55;
+
+  --ff-text-body-sm-size: 0.8125rem;
+  --ff-text-body-sm-line: 1.5;
+
+  --ff-text-label-size: 0.8125rem;
+  --ff-text-label-line: 1.35;
+
+  --ff-text-caption-size: 0.75rem;
+  --ff-text-caption-line: 1.4;
+
+  /* 4px Spacing Scale */
+  --ff-space-1: 4px;
+  --ff-space-2: 8px;
+  --ff-space-3: 12px;
+  --ff-space-4: 16px;
+  --ff-space-5: 20px;
+  --ff-space-6: 24px;
+  --ff-space-8: 32px;
+  --ff-space-10: 40px;
+  --ff-space-12: 48px;
+  --ff-space-16: 64px;
+
+  /* Desktop-First Layout Standards */
+  --ff-layout-sidebar-width: 248px;
+  --ff-layout-header-height: 56px;
+  --ff-layout-page-gutter: 32px;
+  --ff-layout-section-gap: 32px;
+  --ff-layout-panel-padding: 24px;
+  --ff-layout-container-max: 1600px;
+
+  /* Subtle Structural Radii & Transitions */
+  --ff-radius-sm: 4px;
+  --ff-radius-md: 6px;
+  --ff-radius-lg: 8px;
+  --ff-transition-fast: 150ms cubic-bezier(0.16, 1, 0.3, 1);
+}

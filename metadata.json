@@ -1,0 +1,6 @@
+{
+  "name": "FormFusion",
+  "description": "FormFusion v2.0 — Personal AI Creative Studio that transforms analyzed objects into artistic visual outputs through a structured workflow.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
